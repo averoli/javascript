@@ -28,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -117,9 +118,10 @@
       <screen x="0" y="23" width="1280" height="712" />
     </state>
     <state x="0" y="23" width="945" height="693" key="dock-window-1/0.23.1280.712@0.23.1280.712" timestamp="1623681428835" />
-    <state x="129" y="24" width="652" height="693" key="dock-window-2" timestamp="1623686388148">
-      <screen x="0" y="23" width="1280" height="714" />
+    <state x="129" y="24" width="652" height="693" key="dock-window-2" timestamp="1623690152447">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="129" y="24" width="652" height="693" key="dock-window-2/0.0.1280.800@0.0.1280.800" timestamp="1623690152447" />
     <state x="129" y="24" width="652" height="693" key="dock-window-2/0.23.1280.712@0.23.1280.712" timestamp="1623685950912" />
     <state x="129" y="24" width="652" height="693" key="dock-window-2/0.23.1280.714@0.23.1280.714" timestamp="1623686388148" />
   </component>

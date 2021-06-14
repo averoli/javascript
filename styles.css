@@ -7,9 +7,10 @@
 body {
     font-family: 'Muli', sans-serif;
     overflow: hidden;
-    margin: 0;
-    background: #111111;
     height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f5f5dc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,37 +19,38 @@ body {
 .container {
     width: 100%;
     display: flex;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .slide {
     height: 80vh;
-    border-radius: 20px;
-    margin: 10px;
-    cursor: pointer;
-    color: #ffffff;
+    border: 0.6px solid #E7E7C8;
+    border-radius: 15px;
     flex: 1;
+    margin: 10px;
+    color: lightgrey;
+    cursor: pointer;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    transition: all 500ms ease-in-out;
+    transition: all 600ms ease-in-out;
 }
 
 .slide h3 {
     position: absolute;
-    font-size: 24px;
-    bottom: 20px;
-    left: 20px;
-    margin: 0;
+    font-size: 18px;
     opacity: 0;
+    bottom: 15px;
+    left: 15px;
+    margin: 0;
 }
 
 .slide.active {
     flex: 10;
 }
 
-.slide.active h3 {
+.slide.active h3{
     opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
+    transition: opacity 0.4s ease-in 0.3s;
 }
