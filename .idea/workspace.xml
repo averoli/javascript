@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29128b9f-47ef-480f-ac7b-ba83d2f13a1b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1twW1S9IXPHdKtePKSxvj9y2duR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/marathonJS/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29128b9f-47ef-480f-ac7b-ba83d2f13a1b" name="Default Changelist" comment="" />
+      <created>1623680417416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623680417416</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="758" height="220" key="GridCell.Tab.0.bottom" timestamp="1623681548394">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.0.bottom/0.23.1280.714@0.23.1280.714" timestamp="1623681548394" />
+    <state width="758" height="220" key="GridCell.Tab.0.center" timestamp="1623681548393">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.0.center/0.23.1280.714@0.23.1280.714" timestamp="1623681548393" />
+    <state width="758" height="220" key="GridCell.Tab.0.left" timestamp="1623681548393">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.0.left/0.23.1280.714@0.23.1280.714" timestamp="1623681548393" />
+    <state width="758" height="220" key="GridCell.Tab.0.right" timestamp="1623681548394">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.0.right/0.23.1280.714@0.23.1280.714" timestamp="1623681548394" />
+    <state width="758" height="220" key="GridCell.Tab.1.bottom" timestamp="1623681548396">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.1.bottom/0.23.1280.714@0.23.1280.714" timestamp="1623681548396" />
+    <state width="758" height="220" key="GridCell.Tab.1.center" timestamp="1623681548395">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.1.center/0.23.1280.714@0.23.1280.714" timestamp="1623681548395" />
+    <state width="758" height="220" key="GridCell.Tab.1.left" timestamp="1623681548395">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.1.left/0.23.1280.714@0.23.1280.714" timestamp="1623681548395" />
+    <state width="758" height="220" key="GridCell.Tab.1.right" timestamp="1623681548395">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.1.right/0.23.1280.714@0.23.1280.714" timestamp="1623681548395" />
+    <state width="758" height="220" key="GridCell.Tab.2.bottom" timestamp="1623681548398">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.2.bottom/0.23.1280.714@0.23.1280.714" timestamp="1623681548398" />
+    <state width="758" height="220" key="GridCell.Tab.2.center" timestamp="1623681548397">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.2.center/0.23.1280.714@0.23.1280.714" timestamp="1623681548397" />
+    <state width="758" height="220" key="GridCell.Tab.2.left" timestamp="1623681548396">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.2.left/0.23.1280.714@0.23.1280.714" timestamp="1623681548396" />
+    <state width="758" height="220" key="GridCell.Tab.2.right" timestamp="1623681548397">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="758" height="220" key="GridCell.Tab.2.right/0.23.1280.714@0.23.1280.714" timestamp="1623681548397" />
+    <state x="141" y="23" width="997" height="712" key="SettingsEditor" timestamp="1623681428520">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state x="141" y="23" width="997" height="712" key="SettingsEditor/0.23.1280.712@0.23.1280.712" timestamp="1623681428520" />
+    <state x="0" y="23" width="945" height="693" key="dock-window-1" timestamp="1623681428835">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state x="0" y="23" width="945" height="693" key="dock-window-1/0.23.1280.712@0.23.1280.712" timestamp="1623681428835" />
+    <state x="129" y="24" width="652" height="693" key="dock-window-2" timestamp="1623686388148">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state x="129" y="24" width="652" height="693" key="dock-window-2/0.23.1280.712@0.23.1280.712" timestamp="1623685950912" />
+    <state x="129" y="24" width="652" height="693" key="dock-window-2/0.23.1280.714@0.23.1280.714" timestamp="1623686388148" />
+  </component>
+</project>
