@@ -1,1 +1,2 @@
-# The cards
+# Gallery
+![Game Process](./video/Gallery.gif)
