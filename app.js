@@ -1,40 +1,38 @@
-const item = document.querySelector('.item')
-const placeholders = document.querySelectorAll('.placeholder')
+const upBtn = document.querySelector('.up-button');
+const downBtn = document.querySelector('.down-button');
 
-item.addEventListener('dragstart', dragstart)
-item.addEventListener('dragend', dragend)
+const sidebar = document.querySelector('.sidebar');
+const mainSlide = document.querySelector('.main-slide');
 
-for (const placeholder of placeholders) {
-    placeholder.addEventListener('dragover', dragover)
-    placeholder.addEventListener('dragenter', dragenter)
-    placeholder.addEventListener('dragleave', dragleave)
-    placeholder.addEventListener('drop', dragdrop)
-}
+const slidesCount = mainSlide.querySelectorAll('div').length;
+const container = document.querySelector('.container');
 
-function dragstart(event) {
-    event.target.classList.add('hold')
-    setTimeout(() =>
-        event.target.classList.add('hide'), 0)
+sidebar.style.top = `-${(slidesCount - 1) * 100}vh`;
 
-}
+let activeSlideIndex = 0;
 
-function dragend(event) {
-    event.target.className = 'item'
-}
+upBtn.addEventListener('click', () => {
+    changeSlide('up')
+})
 
-function dragover(event) {
-    event.preventDefault();
-}
+downBtn.addEventListener('click', () => {
+    changeSlide('down')
+})
 
-function dragenter(event) {
-    event.target.classList.add('hovered')
-}
+function changeSlide(direction) {
+    if(direction === 'up') {
+        activeSlideIndex++
+        if (activeSlideIndex === slidesCount) {
+            activeSlideIndex = 0;
+        }
+    } else if (direction === 'down') {
+            activeSlideIndex--
+            if (activeSlideIndex < 0) {
+                activeSlideIndex = slidesCount - 1
+            }
+    }
+    const height = container.clientHeight
 
-function dragleave(event) {
-    event.target.classList.remove('hovered')
-}
-
-function dragdrop(event) {
-    event.target.classList.remove('hovered')
-    event.target.append(item)
+    mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`
+    sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`
 }

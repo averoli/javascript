@@ -1,32 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="styles.css"/>
-    <title>Drag & Drop | Проект 2</title>
-</head>
-<body>
-<div>
-    <div class="row">
-        <div class="col-header start">Начать</div>
-        <div class="col-header progress">В процессе</div>
-        <div class="col-header done">Готовы</div>
-    </div>
-
-    <div class="row">
-        <div class="placeholder">
-            <div class="item"
-                 draggable="true"
-            >Перетащи меня
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Слайдер | Проект 3</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div style="background: linear-gradient(220.16deg, #DBD786 -8%, #E6C060 138%);">
+          <h1>Turkish Delight</h1>
+          <p>...calls "Lokum". With love from Istanbul.</p>
         </div>
-        <div class="placeholder"></div>
-        <div class="placeholder"></div>
+        <div style="background: linear-gradient(215.32deg, #9CB3B4 -1%, #F8F2CE 124%);">
+          <h1>Istanbul</h1>
+          <p>Sultan Ahmet Mosque</p>
+        </div>
+        <div style="background: linear-gradient(221.87deg, #FEEBCC 1%, #8E6048 128%);">
+          <h1>Istanbul</h1>
+          <p>Galata is the 14th-century Tower</p>
+
+        </div>
+        <div style="background: linear-gradient(229.99deg, #BAE9FE -26%, #7AADDF 145%);">
+          <h1>Cappadocia</h1>
+          <p>Hot air ballooning</p>
+        </div>
+      </div>
+      <div class="main-slide">
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1510253687831-0f982d7862fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=719&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1555148484-324aae683a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');
+          "
+        ></div>
+      </div>
+      <div class="controls">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
     </div>
 
-</div>
-
-<script src="app.js"></script>
-</body>
+  <script src="app.js"></script>
+  </body>
 </html>
